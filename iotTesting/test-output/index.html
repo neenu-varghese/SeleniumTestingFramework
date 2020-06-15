@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-iotTesting">
+              <span class="suite-name border-failed">iotTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-iotTesting">
+                    <span>C:\Users\Neenu\eclipse-workspace\iotTesting\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-iotTesting">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-iotTesting">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-iotTesting">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-iotTesting">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-iotTesting">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-iotTesting">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 3 failed,  6 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-iotTesting" class="hide-methods failed suite-iotTesting"> (hide)</a> <!-- hide-methods failed suite-iotTesting -->
+                      <a href="#" panel-name="suite-iotTesting" class="show-methods failed suite-iotTesting"> (show)</a> <!-- show-methods failed suite-iotTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-iotTesting">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(20)">dashboardDDT(20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(9)">dashboardDDT(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(94)">dashboardDDT(94)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-iotTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-iotTesting" class="hide-methods skipped suite-iotTesting"> (hide)</a> <!-- hide-methods skipped suite-iotTesting -->
+                      <a href="#" panel-name="suite-iotTesting" class="show-methods skipped suite-iotTesting"> (show)</a> <!-- show-methods skipped suite-iotTesting -->
+                    </span>
+                    <div class="method-list-content skipped suite-iotTesting">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(94)">dashboardDDT(94)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(9)">dashboardDDT(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(20)">dashboardDDT(20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(20)">dashboardDDT(20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(94)">dashboardDDT(94)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iotTesting" title="com.iotTesting.testCases.TC_DD_EnterValue_001" hash-for-method="dashboardDDT(9)">dashboardDDT(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-iotTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-iotTesting" class="panel iotTesting">
+          <div class="suite-iotTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.iotTesting.testCases.TC_DD_EnterValue_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(20)">
+                  </a> <!-- dashboardDDT(20) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(20)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;nr-dashboard-toolbar&apos;]//button//ng-md-icon (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OLJU00U&apos;, ip: &apos;192.168.178.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19377/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: f0e7f287-f230-49e3-acdd-2b69db6f0962
+*** Element info: {Using=xpath, value=//div[@id=&apos;nr-dashboard-toolbar&apos;]//button//ng-md-icon}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.iotTesting.pageObjects.HomePage.clickMenu(HomePage.java:46)
+	at com.iotTesting.testCases.TC_DD_EnterValue_001.dashboardDDT(TC_DD_EnterValue_001.java:26)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(9)">
+                  </a> <!-- dashboardDDT(9) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(9)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;nr-dashboard-toolbar&apos;]//button//ng-md-icon (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OLJU00U&apos;, ip: &apos;192.168.178.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19377/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: f0e7f287-f230-49e3-acdd-2b69db6f0962
+*** Element info: {Using=xpath, value=//div[@id=&apos;nr-dashboard-toolbar&apos;]//button//ng-md-icon}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.iotTesting.pageObjects.HomePage.clickMenu(HomePage.java:46)
+	at com.iotTesting.testCases.TC_DD_EnterValue_001.dashboardDDT(TC_DD_EnterValue_001.java:26)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(94)">
+                  </a> <!-- dashboardDDT(94) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(94)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;nr-dashboard-toolbar&apos;]//button//ng-md-icon (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OLJU00U&apos;, ip: &apos;192.168.178.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:19377/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: f0e7f287-f230-49e3-acdd-2b69db6f0962
+*** Element info: {Using=xpath, value=//div[@id=&apos;nr-dashboard-toolbar&apos;]//button//ng-md-icon}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.iotTesting.pageObjects.HomePage.clickMenu(HomePage.java:46)
+	at com.iotTesting.testCases.TC_DD_EnterValue_001.dashboardDDT(TC_DD_EnterValue_001.java:26)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iotTesting-class-failed -->
+          <div class="suite-iotTesting-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.iotTesting.testCases.TC_DD_EnterValue_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(94)">
+                  </a> <!-- dashboardDDT(94) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(94)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(9)">
+                  </a> <!-- dashboardDDT(9) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(20)">
+                  </a> <!-- dashboardDDT(20) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(20)">
+                  </a> <!-- dashboardDDT(20) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(94)">
+                  </a> <!-- dashboardDDT(94) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(94)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardDDT(9)">
+                  </a> <!-- dashboardDDT(9) -->
+                  <span class="method-name">dashboardDDT</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iotTesting-class-skipped -->
+        </div> <!-- panel iotTesting -->
+        <div panel-name="test-xml-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Neenu\eclipse-workspace\iotTesting\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;iotTesting&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.iotTesting.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;AUT-Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iotTesting.testCases.TC_DD_EnterValue_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AUT-Chrome Test --&gt;
+  &lt;test name=&quot;AUT-IE Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iotTesting.testCases.TC_DD_EnterValue_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AUT-IE Test --&gt;
+  &lt;test name=&quot;AUT-Firefox Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.iotTesting.testCases.TC_DD_EnterValue_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AUT-Firefox Test --&gt;
+&lt;/suite&gt; &lt;!-- iotTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for iotTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AUT-Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AUT-IE Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AUT-Firefox Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for iotTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for iotTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_iotTesting');
+function tableData_iotTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dashboardDDT')
+data.setCell(0, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(0, 3, 3216);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dashboardDDT')
+data.setCell(1, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(1, 3, 2354);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dashboardDDT')
+data.setCell(2, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(2, 3, 2324);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dashboardDDT')
+data.setCell(3, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dashboardDDT')
+data.setCell(4, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dashboardDDT')
+data.setCell(5, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'dashboardDDT')
+data.setCell(6, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dashboardDDT')
+data.setCell(7, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'dashboardDDT')
+data.setCell(8, 2, 'com.iotTesting.testCases.TC_DD_EnterValue_001')
+data.setCell(8, 3, 1);
+window.suiteTableData['iotTesting']= { tableData: data, tableDiv: 'times-div-iotTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-iotTesting">
+              </div> <!-- times-div-iotTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for iotTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-iotTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.iotTesting.testCases.TC_DD_EnterValue_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dashboardDDT(9)</span>
+                <span class="method-start">14258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardDDT(20)</span>
+                <span class="method-start">14296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardDDT(94)</span>
+                <span class="method-start">14298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(ie)</span>
+                <span class="method-start">15419 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dashboardDDT(9)</span>
+                <span class="method-start">82913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dashboardDDT(20)</span>
+                <span class="method-start">86144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dashboardDDT(94)</span>
+                <span class="method-start">88500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90827 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">92710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dashboardDDT(9)</span>
+                <span class="method-start">165780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardDDT(20)</span>
+                <span class="method-start">165783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardDDT(94)</span>
+                <span class="method-start">165785 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

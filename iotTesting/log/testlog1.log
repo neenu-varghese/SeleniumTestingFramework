@@ -1,0 +1,409 @@
+2020-05-06 13:20:42,815 [main] INFO iotTesting - URL is opened
+2020-05-06 13:20:45,077 [main] INFO iotTesting - Value is entered
+2020-05-06 13:20:45,115 [main] INFO iotTesting - Login test passed
+2020-05-06 13:27:13,260 [main] INFO iotTesting - URL is opened
+2020-05-06 13:27:15,660 [main] INFO iotTesting - Value is entered
+2020-05-06 13:27:15,668 [main] INFO iotTesting - Login test passed
+2020-05-06 13:29:36,075 [main] INFO iotTesting - URL is opened
+2020-05-06 13:31:58,639 [main] INFO iotTesting - URL is opened
+2020-05-06 13:31:59,622 [main] INFO iotTesting - End of test case
+2020-05-06 14:29:41,539 [main] INFO iotTesting - URL is opened
+2020-05-06 14:29:42,571 [main] INFO iotTesting - End of test case
+2020-05-06 14:45:23,621 [main] INFO iotTesting - URL is opened
+2020-05-06 14:45:28,860 [main] INFO iotTesting - End of test case
+2020-05-06 14:54:54,600 [main] INFO iotTesting - URL is opened
+2020-05-06 14:54:56,482 [main] INFO iotTesting - End of test case
+2020-05-06 14:59:47,154 [main] INFO iotTesting - URL is opened
+2020-05-06 14:59:47,304 [main] INFO iotTesting - End of test case
+2020-05-06 15:08:50,884 [main] INFO iotTesting - URL is opened
+2020-05-06 15:19:15,881 [main] INFO iotTesting - URL is opened
+2020-05-06 15:21:54,560 [main] INFO iotTesting - URL is opened
+2020-05-06 15:23:23,961 [main] INFO iotTesting - URL is opened
+2020-05-06 15:24:54,089 [main] INFO iotTesting - URL is opened
+2020-05-06 15:24:54,456 [main] INFO iotTesting - Wait Time
+2020-05-06 15:24:57,183 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-06 15:24:57,249 [main] INFO iotTesting - Menu - Clicked
+2020-05-07 13:11:44,625 [main] INFO iotTesting - URL is opened
+2020-05-07 13:11:45,618 [main] INFO iotTesting - Wait Time
+2020-05-07 13:11:46,739 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-07 13:11:47,194 [main] INFO iotTesting - Menu - Clicked
+2020-05-07 13:22:01,094 [main] INFO iotTesting - URL is opened
+2020-05-07 13:22:01,182 [main] INFO iotTesting - Wait Time
+2020-05-07 13:22:04,289 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-07 13:22:04,539 [main] INFO iotTesting - Menu - Clicked
+2020-05-07 13:22:05,489 [main] INFO iotTesting - System - Selected
+2020-05-07 13:22:05,944 [main] INFO iotTesting - Value - entered
+2020-05-07 13:22:05,991 [main] INFO iotTesting - Login test passed
+2020-05-07 13:22:58,556 [main] INFO iotTesting - URL is opened
+2020-05-07 13:22:58,578 [main] INFO iotTesting - Wait Time
+2020-05-07 13:23:35,502 [main] INFO iotTesting - URL is opened
+2020-05-07 13:23:35,519 [main] INFO iotTesting - Wait Time
+2020-05-07 13:25:13,767 [main] INFO iotTesting - URL is opened
+2020-05-07 13:25:13,788 [main] INFO iotTesting - Wait Time
+2020-05-07 13:26:22,782 [main] INFO iotTesting - URL is opened
+2020-05-07 13:26:22,805 [main] INFO iotTesting - Wait Time
+2020-05-07 13:32:58,935 [main] INFO iotTesting - URL is opened
+2020-05-07 13:32:58,958 [main] INFO iotTesting - Wait Time
+2020-05-07 13:38:11,730 [main] INFO iotTesting - URL is opened
+2020-05-07 13:38:12,189 [main] INFO iotTesting - Wait Time
+2020-05-07 13:38:14,136 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-07 13:38:14,361 [main] INFO iotTesting - Menu - Clicked
+2020-05-07 13:38:14,955 [main] INFO iotTesting - System - Selected
+2020-05-07 13:38:15,142 [main] INFO iotTesting - Value - entered
+2020-05-07 13:38:15,155 [main] INFO iotTesting - Dashboard test passed
+2020-05-07 13:38:54,802 [main] INFO iotTesting - URL is opened
+2020-05-07 13:38:54,847 [main] INFO iotTesting - Wait Time
+2020-05-08 12:25:14,090 [main] INFO iotTesting - URL is opened
+2020-05-08 12:25:14,692 [main] INFO iotTesting - Wait Time
+2020-05-08 12:25:16,321 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-08 12:25:16,560 [main] INFO iotTesting - Menu - Clicked
+2020-05-08 12:25:17,168 [main] INFO iotTesting - System - Selected
+2020-05-08 12:25:17,712 [main] INFO iotTesting - Value - entered
+2020-05-08 12:25:17,749 [main] INFO iotTesting - Dashboard test passed
+2020-05-08 12:43:42,722 [main] INFO iotTesting - URL is opened
+2020-05-08 12:43:43,402 [main] INFO iotTesting - Wait Time
+2020-05-08 12:43:51,415 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-08 12:43:51,653 [main] INFO iotTesting - Menu - Clicked
+2020-05-08 12:43:52,149 [main] INFO iotTesting - System - Selected
+2020-05-08 12:43:52,350 [main] INFO iotTesting - Value - entered
+2020-05-08 12:43:52,387 [main] INFO iotTesting - Dashboard test passed
+2020-05-08 12:44:19,480 [main] INFO iotTesting - URL is opened
+2020-05-08 12:44:19,498 [main] INFO iotTesting - Wait Time
+2020-05-08 12:46:16,163 [main] INFO iotTesting - URL is opened
+2020-05-08 12:46:16,182 [main] INFO iotTesting - Wait Time
+2020-05-08 12:56:04,771 [main] INFO iotTesting - URL is opened
+2020-05-08 12:56:05,175 [main] INFO iotTesting - Wait Time
+2020-05-08 12:56:07,296 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-08 12:56:07,622 [main] INFO iotTesting - Menu - Clicked
+2020-05-08 12:56:08,015 [main] INFO iotTesting - System - Selected
+2020-05-08 12:56:08,263 [main] INFO iotTesting - Value - entered
+2020-05-08 12:56:08,290 [main] INFO iotTesting - Dashboard test passed
+2020-05-08 12:56:31,695 [main] INFO iotTesting - URL is opened
+2020-05-08 12:56:31,715 [main] INFO iotTesting - Wait Time
+2020-05-08 12:56:32,874 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-08 12:56:33,282 [main] INFO iotTesting - Menu - Clicked
+2020-05-08 12:56:33,668 [main] INFO iotTesting - System - Selected
+2020-05-08 12:56:33,791 [main] INFO iotTesting - Value - entered
+2020-05-08 12:56:33,807 [main] INFO iotTesting - Dashboard test passed
+2020-05-08 12:56:55,301 [main] INFO iotTesting - URL is opened
+2020-05-08 12:56:55,322 [main] INFO iotTesting - Wait Time
+2020-05-08 12:56:56,377 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-08 12:56:56,699 [main] INFO iotTesting - Menu - Clicked
+2020-05-08 12:56:57,135 [main] INFO iotTesting - System - Selected
+2020-05-08 12:56:57,248 [main] INFO iotTesting - Value - entered
+2020-05-08 12:56:57,260 [main] INFO iotTesting - Dashboard test passed
+2020-05-09 13:02:18,081 [main] INFO iotTesting - URL is opened
+2020-05-09 13:02:18,821 [main] INFO iotTesting - Wait Time
+2020-05-09 13:02:22,054 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-09 13:02:22,674 [main] INFO iotTesting - Menu - Clicked
+2020-05-09 13:02:23,672 [main] INFO iotTesting - System - Selected
+2020-05-09 13:02:26,840 [main] INFO iotTesting - Value - entered
+2020-05-09 13:02:26,927 [main] INFO iotTesting - Dashboard test passed
+2020-05-15 21:53:47,199 [main] INFO iotTesting - URL is opened
+2020-05-15 21:53:47,379 [main] INFO iotTesting - Wait Time
+2020-05-15 21:53:47,614 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-15 21:53:47,838 [main] INFO iotTesting - Menu - Clicked
+2020-05-15 21:53:48,371 [main] INFO iotTesting - System - Selected
+2020-05-15 21:53:48,702 [main] INFO iotTesting - Value - entered
+2020-05-15 21:53:48,729 [main] INFO iotTesting - Dashboard test passed
+2020-05-16 12:53:37,199 [main] INFO iotTesting - URL is opened
+2020-05-16 12:53:38,036 [main] INFO iotTesting - Wait Time
+2020-05-16 12:53:39,275 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-16 12:53:39,414 [main] INFO iotTesting - Menu - Clicked
+2020-05-16 12:53:40,305 [main] INFO iotTesting - System - Selected
+2020-05-16 12:53:40,963 [main] INFO iotTesting - Value - entered
+2020-05-16 12:53:41,023 [main] INFO iotTesting - Dashboard test passed
+2020-05-16 14:17:39,266 [main] INFO iotTesting - URL is opened
+2020-05-16 14:17:39,821 [main] INFO iotTesting - Wait Time
+2020-05-16 14:17:40,751 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-16 14:17:40,926 [main] INFO iotTesting - Menu - Clicked
+2020-05-16 14:17:41,652 [main] INFO iotTesting - System - Selected
+2020-05-16 14:17:41,857 [main] INFO iotTesting - Value - entered
+2020-05-16 19:38:49,308 [main] INFO iotTesting - URL is opened
+2020-05-16 19:38:52,395 [main] INFO iotTesting - Wait Time
+2020-05-16 19:38:53,050 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-16 19:38:53,145 [main] INFO iotTesting - Menu - Clicked
+2020-05-16 19:38:54,030 [main] INFO iotTesting - System - Selected
+2020-05-16 19:38:54,323 [main] INFO iotTesting - Evalue entered
+2020-05-16 19:38:57,340 [main] INFO iotTesting - URL is opened
+2020-05-16 19:39:00,341 [main] INFO iotTesting - Wait Time
+2020-05-16 19:39:10,741 [main] INFO iotTesting - URL is opened
+2020-05-16 19:39:13,742 [main] INFO iotTesting - Wait Time
+2020-05-16 19:44:56,857 [main] INFO iotTesting - URL is opened
+2020-05-16 19:44:59,869 [main] INFO iotTesting - Wait Time
+2020-05-16 19:45:00,134 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-16 19:45:00,439 [main] INFO iotTesting - Menu - Clicked
+2020-05-16 19:45:01,005 [main] INFO iotTesting - System - Selected
+2020-05-16 19:45:01,155 [main] INFO iotTesting - Evalue entered
+2020-05-16 19:45:04,264 [main] INFO iotTesting - URL is opened
+2020-05-16 19:45:07,265 [main] INFO iotTesting - Wait Time
+2020-05-16 19:45:11,994 [main] INFO iotTesting - URL is opened
+2020-05-16 19:45:14,996 [main] INFO iotTesting - Wait Time
+2020-05-16 19:57:36,775 [main] INFO iotTesting - URL is opened
+2020-05-16 19:57:37,396 [main] INFO iotTesting - Wait Time
+2020-05-16 19:57:40,585 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-16 19:57:40,921 [main] INFO iotTesting - Menu - Clicked
+2020-05-16 19:57:41,688 [main] INFO iotTesting - System - Selected
+2020-05-16 19:57:47,088 [main] INFO iotTesting - Value - entered
+2020-05-16 20:12:45,408 [main] INFO IE pass - URL is opened
+2020-05-16 20:12:45,808 [main] INFO IE pass - Wait Time
+2020-05-16 20:12:49,850 [main] INFO IE pass - Emergency Button - Clicked
+2020-05-16 20:12:51,232 [main] INFO IE pass - Menu - Clicked
+2020-05-16 20:12:52,453 [main] INFO IE pass - System - Selected
+2020-05-16 20:15:20,021 [main] INFO iotTesting - URL is opened
+2020-05-16 20:15:24,124 [main] INFO iotTesting - Wait Time
+2020-05-16 20:15:24,999 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-16 20:15:25,154 [main] INFO iotTesting - Menu - Clicked
+2020-05-16 20:15:26,510 [main] INFO iotTesting - System - Selected
+2020-05-16 20:15:26,920 [main] INFO iotTesting - Value - entered
+2020-05-18 23:24:52,004 [main] INFO iotTesting - URL is opened
+2020-05-18 23:24:53,159 [main] INFO iotTesting - Wait Time
+2020-05-18 23:24:53,659 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-18 23:25:10,353 [main] INFO iotTesting - Menu - Clicked
+2020-05-18 23:25:12,392 [main] INFO iotTesting - System - Selected
+2020-05-18 23:25:13,000 [main] INFO iotTesting - Value - entered
+2020-05-18 23:27:56,774 [main] INFO iotTesting - URL is opened
+2020-05-18 23:27:56,907 [main] INFO iotTesting - Wait Time
+2020-05-18 23:27:57,297 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-18 23:27:59,418 [main] INFO iotTesting - Menu - Clicked
+2020-05-18 23:28:00,599 [main] INFO iotTesting - System - Selected
+2020-05-18 23:28:00,997 [main] INFO iotTesting - Value - entered
+2020-05-18 23:28:01,005 [main] INFO iotTesting - Dashboard test passed
+2020-05-19 12:20:08,803 [main] INFO iotTesting - URL is opened
+2020-05-19 12:20:10,141 [main] INFO iotTesting - Wait Time
+2020-05-19 12:20:10,886 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-19 12:20:11,038 [main] INFO iotTesting - Menu - Clicked
+2020-05-19 12:20:11,813 [main] INFO iotTesting - System - Selected
+2020-05-19 12:20:12,224 [main] INFO iotTesting - Value - entered
+2020-05-19 12:20:12,320 [main] INFO iotTesting - Dashboard test passed
+2020-05-21 00:32:37,897 [main] INFO iotTesting - URL is opened
+2020-05-21 00:32:38,377 [main] INFO iotTesting - Wait Time
+2020-05-21 00:32:39,637 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-21 00:32:40,069 [main] INFO iotTesting - Menu - Clicked
+2020-05-21 00:32:43,527 [main] INFO iotTesting - System - Selected
+2020-05-21 00:32:47,151 [main] INFO iotTesting - Value - entered
+2020-05-21 00:32:47,199 [main] INFO iotTesting - Dashboard test passed
+2020-05-21 00:33:41,367 [main] INFO iotTesting - URL is opened
+2020-05-21 00:33:41,403 [main] INFO iotTesting - Wait Time
+2020-05-21 00:33:42,001 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-21 00:33:45,407 [main] INFO iotTesting - Menu - Clicked
+2020-05-21 00:33:45,824 [main] INFO iotTesting - System - Selected
+2020-05-21 00:33:46,003 [main] INFO iotTesting - Value - entered
+2020-05-21 00:33:46,013 [main] INFO iotTesting - Dashboard test passed
+2020-05-21 00:45:18,795 [main] INFO iotTesting - URL is opened
+2020-05-21 00:45:20,369 [main] INFO iotTesting - Wait Time
+2020-05-21 00:45:21,119 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-21 00:45:24,402 [main] INFO iotTesting - Menu - Clicked
+2020-05-21 00:45:25,500 [main] INFO iotTesting - System - Selected
+2020-05-21 00:45:26,227 [main] INFO iotTesting - Value - entered
+2020-05-21 00:45:26,256 [main] INFO iotTesting - Dashboard test passed
+2020-05-22 17:14:10,954 [main] INFO iotTesting - Test
+2020-05-22 17:14:11,488 [main] INFO iotTesting - Done
+2020-05-22 17:27:19,255 [main] INFO iotTesting - System 
+2020-05-22 17:35:10,417 [main] INFO iotTesting - URL is opened
+2020-05-22 17:35:13,540 [main] INFO iotTesting - Wait Time
+2020-05-22 17:35:14,175 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-22 17:35:14,546 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 17:35:27,429 [main] INFO iotTesting - System - Selected
+2020-05-22 17:35:28,110 [main] INFO iotTesting - Evalue entered
+2020-05-22 17:35:33,112 [main] INFO iotTesting - Not Null- Wait until null
+2020-05-22 17:35:38,554 [main] INFO iotTesting - URL is opened
+2020-05-22 17:35:41,556 [main] INFO iotTesting - Wait Time
+2020-05-22 17:35:53,685 [main] INFO iotTesting - URL is opened
+2020-05-22 17:35:56,686 [main] INFO iotTesting - Wait Time
+2020-05-22 17:36:06,792 [main] INFO iotTesting - System 
+2020-05-22 19:27:19,682 [main] INFO iotTesting - URL is opened
+2020-05-22 19:27:22,886 [main] INFO iotTesting - Wait Time
+2020-05-22 19:27:23,950 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-22 19:27:24,409 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 19:27:26,815 [main] INFO iotTesting - System - Selected
+2020-05-22 19:27:28,537 [main] INFO iotTesting - Evalue entered
+2020-05-22 19:27:33,664 [main] INFO iotTesting - URL is opened
+2020-05-22 19:27:36,665 [main] INFO iotTesting - Wait Time
+2020-05-22 19:27:48,959 [main] INFO iotTesting - URL is opened
+2020-05-22 19:27:51,961 [main] INFO iotTesting - Wait Time
+2020-05-22 19:28:02,121 [main] INFO iotTesting - System 
+2020-05-22 20:34:35,596 [main] INFO iotTesting - URL is opened
+2020-05-22 20:34:38,687 [main] INFO iotTesting - Wait Time
+2020-05-22 20:34:39,364 [main] INFO iotTesting - Emergency Button - Clicked
+2020-05-22 20:34:39,542 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:34:40,190 [main] INFO iotTesting - System - Selected
+2020-05-22 20:34:40,473 [main] INFO iotTesting - Evalue entered
+2020-05-22 20:34:45,553 [main] INFO iotTesting - URL is opened
+2020-05-22 20:34:48,554 [main] INFO iotTesting - Wait Time
+2020-05-22 20:34:58,797 [main] INFO iotTesting - URL is opened
+2020-05-22 20:35:01,799 [main] INFO iotTesting - Wait Time
+2020-05-22 20:35:11,835 [main] INFO iotTesting - System 
+2020-05-22 20:45:35,207 [main] INFO iotTesting - URL is opened
+2020-05-22 20:45:38,770 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:45:39,649 [main] INFO iotTesting - System - Selected
+2020-05-22 20:45:39,945 [main] INFO iotTesting - Evalue entered
+2020-05-22 20:45:45,024 [main] INFO iotTesting - URL is opened
+2020-05-22 20:45:48,091 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:45:48,244 [main] INFO iotTesting - System - Selected
+2020-05-22 20:45:48,315 [main] INFO iotTesting - Evalue entered
+2020-05-22 20:45:53,325 [main] INFO iotTesting - URL is opened
+2020-05-22 20:45:56,370 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:45:56,519 [main] INFO iotTesting - System - Selected
+2020-05-22 20:45:56,583 [main] INFO iotTesting - Evalue entered
+2020-05-22 20:46:01,588 [main] INFO iotTesting - System 
+2020-05-22 20:47:36,528 [main] INFO iotTesting - URL is opened
+2020-05-22 20:47:40,121 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:47:41,241 [main] INFO iotTesting - System - Selected
+2020-05-22 20:47:41,461 [main] INFO iotTesting - Fuel unit: 24 entered
+2020-05-22 20:47:48,525 [main] INFO iotTesting - URL is opened
+2020-05-22 20:47:51,614 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:47:51,784 [main] INFO iotTesting - System - Selected
+2020-05-22 20:47:51,862 [main] INFO iotTesting - Fuel unit: 58 entered
+2020-05-22 20:47:56,873 [main] INFO iotTesting - URL is opened
+2020-05-22 20:47:59,918 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 20:48:00,071 [main] INFO iotTesting - System - Selected
+2020-05-22 20:48:00,137 [main] INFO iotTesting - Fuel unit: 99 entered
+2020-05-22 20:48:05,143 [main] INFO iotTesting - System 
+2020-05-22 23:28:32,793 [main] INFO iotTesting - Welcome Dashboard
+2020-05-22 23:28:35,657 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 23:28:38,218 [main] INFO iotTesting - System - Selected
+2020-05-22 23:28:39,860 [main] INFO iotTesting - Fuel value entered: 24 units
+2020-05-22 23:28:44,943 [main] INFO iotTesting - Welcome Dashboard
+2020-05-22 23:28:47,000 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 23:28:48,160 [main] INFO iotTesting - System - Selected
+2020-05-22 23:28:49,216 [main] INFO iotTesting - Fuel value entered: 58 units
+2020-05-22 23:28:54,219 [main] INFO iotTesting - Welcome Dashboard
+2020-05-22 23:28:56,307 [main] INFO iotTesting - Menu - Clicked
+2020-05-22 23:28:57,473 [main] INFO iotTesting - System - Selected
+2020-05-22 23:28:58,527 [main] INFO iotTesting - Fuel value entered: 99 units
+2020-05-22 23:29:03,534 [main] INFO iotTesting - System 
+2020-05-24 22:23:51,632 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 22:23:54,297 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 22:23:56,379 [main] INFO iotTesting - System - Selected
+2020-05-24 22:23:57,973 [main] INFO iotTesting - Fuel value entered: 24 units
+2020-05-24 22:24:03,165 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 22:24:05,260 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 22:24:06,487 [main] INFO iotTesting - System - Selected
+2020-05-24 22:24:07,572 [main] INFO iotTesting - Fuel value entered: 58 units
+2020-05-24 22:24:12,597 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 22:24:14,672 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 22:24:15,848 [main] INFO iotTesting - System - Selected
+2020-05-24 22:24:16,913 [main] INFO iotTesting - Fuel value entered: 99 units
+2020-05-24 22:24:21,916 [main] INFO iotTesting - System 
+2020-05-24 23:30:09,824 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:30:12,659 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:30:15,684 [main] INFO iotTesting - System - Selected
+2020-05-24 23:30:18,348 [main] INFO iotTesting - Fuel value entered: 24 units
+2020-05-24 23:30:23,710 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:30:25,790 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:30:26,978 [main] INFO iotTesting - System - Selected
+2020-05-24 23:30:28,072 [main] INFO iotTesting - Fuel value entered: 58 units
+2020-05-24 23:30:33,074 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:30:35,172 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:30:36,394 [main] INFO iotTesting - System - Selected
+2020-05-24 23:30:37,514 [main] INFO iotTesting - Fuel value entered: 99 units
+2020-05-24 23:30:42,518 [main] INFO iotTesting - System 
+2020-05-24 23:38:33,680 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:38:37,259 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:38:39,188 [main] INFO iotTesting - System - Selected
+2020-05-24 23:38:43,380 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-24 23:38:49,607 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:38:51,786 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:38:53,083 [main] INFO iotTesting - System - Selected
+2020-05-24 23:38:54,252 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-24 23:38:59,256 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:39:01,387 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:39:02,655 [main] INFO iotTesting - System - Selected
+2020-05-24 23:39:03,830 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-24 23:39:08,835 [main] INFO iotTesting - System 
+2020-05-24 23:44:53,198 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:44:55,850 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:44:58,718 [main] INFO iotTesting - System - Selected
+2020-05-24 23:45:00,442 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-24 23:45:05,697 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:45:07,759 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:45:08,951 [main] INFO iotTesting - System - Selected
+2020-05-24 23:45:10,045 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-24 23:45:15,046 [main] INFO iotTesting - Welcome Dashboard
+2020-05-24 23:45:17,091 [main] INFO iotTesting - Menu - Clicked
+2020-05-24 23:45:18,266 [main] INFO iotTesting - System - Selected
+2020-05-24 23:45:19,339 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-24 23:45:24,341 [main] INFO iotTesting - System 
+2020-05-25 00:22:32,385 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 00:22:35,589 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 00:22:37,720 [main] INFO iotTesting - System - Selected
+2020-05-25 00:22:38,929 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-25 00:22:44,088 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 00:22:46,206 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 00:22:47,373 [main] INFO iotTesting - System - Selected
+2020-05-25 00:22:48,432 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-25 00:22:53,435 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 00:22:55,481 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 00:22:56,630 [main] INFO iotTesting - System - Selected
+2020-05-25 00:22:57,692 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-25 00:23:02,695 [main] INFO iotTesting - System 
+2020-05-25 10:47:48,861 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:47:51,662 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:47:53,161 [main] INFO iotTesting - System - Selected
+2020-05-25 10:47:54,523 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-25 10:47:59,649 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:48:01,705 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:48:02,865 [main] INFO iotTesting - System - Selected
+2020-05-25 10:48:03,911 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-25 10:48:08,912 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:48:10,969 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:48:12,132 [main] INFO iotTesting - System - Selected
+2020-05-25 10:48:13,192 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-25 10:48:18,193 [main] INFO iotTesting - System 
+2020-05-25 10:49:42,595 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:49:44,967 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:49:46,903 [main] INFO iotTesting - System - Selected
+2020-05-25 10:49:48,078 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-25 10:49:53,138 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:49:55,193 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:49:56,347 [main] INFO iotTesting - System - Selected
+2020-05-25 10:49:57,400 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-25 10:50:02,402 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:50:04,445 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:50:05,604 [main] INFO iotTesting - System - Selected
+2020-05-25 10:50:06,669 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-25 10:50:11,672 [main] INFO iotTesting - System 
+2020-05-25 10:53:52,986 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:53:55,481 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:53:56,992 [main] INFO iotTesting - System - Selected
+2020-05-25 10:53:58,425 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-25 10:54:03,514 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:54:05,570 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:54:06,742 [main] INFO iotTesting - System - Selected
+2020-05-25 10:54:07,793 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-25 10:54:12,796 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:54:14,841 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:54:16,003 [main] INFO iotTesting - System - Selected
+2020-05-25 10:54:17,085 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-25 10:54:22,087 [main] INFO iotTesting - System 
+2020-05-25 10:57:37,182 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:57:39,825 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:57:41,698 [main] INFO iotTesting - System - Selected
+2020-05-25 10:57:43,007 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-25 10:57:48,123 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:57:50,204 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:57:51,369 [main] INFO iotTesting - System - Selected
+2020-05-25 10:57:52,418 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-25 10:57:57,421 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 10:57:59,466 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 10:58:00,624 [main] INFO iotTesting - System - Selected
+2020-05-25 10:58:01,678 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-25 10:58:06,722 [main] INFO iotTesting - System 
+2020-05-25 12:08:13,380 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 12:08:15,950 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 12:08:18,466 [main] INFO iotTesting - System - Selected
+2020-05-25 12:08:19,774 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-05-25 12:08:24,930 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 12:08:27,026 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 12:08:28,245 [main] INFO iotTesting - System - Selected
+2020-05-25 12:08:29,427 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-05-25 12:08:34,430 [main] INFO iotTesting - Welcome Dashboard
+2020-05-25 12:08:36,570 [main] INFO iotTesting - Menu - Clicked
+2020-05-25 12:08:37,842 [main] INFO iotTesting - System - Selected
+2020-05-25 12:08:39,031 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-05-25 12:08:44,034 [main] INFO iotTesting - System 
+2020-06-09 22:05:56,911 [main] INFO IE pass - Welcome Dashboard
+2020-06-09 22:06:00,142 [main] INFO IE pass - Welcome Dashboard
+2020-06-09 22:06:02,498 [main] INFO IE pass - Welcome Dashboard
+2020-06-09 22:06:04,824 [main] INFO IE pass - System 
