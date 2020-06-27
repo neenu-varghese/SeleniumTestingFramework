@@ -18,27 +18,5 @@
 		</classes>
 
 	</test>
-	
-	<test name="AUT-IE Test">
-		<parameter name="browser" value="ie" />
-		<classes>
-			<!-- <class name="com.iotTesting.testCases.TC_EnterValue_001" /> -->
-			 <class name="com.iotTesting.testCases.TC_DD_EnterValue_001" /> 
-			<!-- <class name="com.iotTesting.testCases.TC_003" />-->
-			
-		</classes>
-
-	</test>
-	
-	<test name="AUT-Firefox Test">
-		<parameter name="browser" value="firefox" />
-		<classes>
-			<!-- <class name="com.iotTesting.testCases.TC_EnterValue_001" /> -->
-			 <class name="com.iotTesting.testCases.TC_DD_EnterValue_001" /> 
-			<!-- <class name="com.iotTesting.testCases.TC_003" />-->
-		
-		</classes>
-
-	</test>
 
 </suite>

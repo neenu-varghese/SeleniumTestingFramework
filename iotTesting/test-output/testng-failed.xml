@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [iotTesting]">
-  <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="ie"/>
   <listeners>
     <listener class-name="com.iotTesting.utilities.Reporting"/>
   </listeners>
   <test name="AUT-Chrome Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.iotTesting.testCases.TC_DD_EnterValue_001">
-        <methods>
-          <include name="tearDown"/>
-          <include name="dashboardDDT"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.iotTesting.testCases.TC_DD_EnterValue_001 -->
-    </classes>
-  </test> <!-- AUT-Chrome Test(failed) -->
-  <test name="AUT-IE Test(failed)">
     <parameter name="browser" value="ie"/>
     <classes>
       <class name="com.iotTesting.testCases.TC_DD_EnterValue_001">
@@ -27,24 +13,8 @@
           <include name="tearDown"/>
           <include name="dashboardDDT" invocation-numbers="0 1 2"/>
           <include name="setup"/>
-          <include name="setup"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- com.iotTesting.testCases.TC_DD_EnterValue_001 -->
     </classes>
-  </test> <!-- AUT-IE Test(failed) -->
-  <test name="AUT-Firefox Test(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.iotTesting.testCases.TC_DD_EnterValue_001">
-        <methods>
-          <include name="tearDown"/>
-          <include name="dashboardDDT"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.iotTesting.testCases.TC_DD_EnterValue_001 -->
-    </classes>
-  </test> <!-- AUT-Firefox Test(failed) -->
+  </test> <!-- AUT-Chrome Test(failed) -->
 </suite> <!-- Failed suite [iotTesting] -->

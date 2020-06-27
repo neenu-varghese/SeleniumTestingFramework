@@ -407,3 +407,58 @@
 2020-06-09 22:06:00,142 [main] INFO IE pass - Welcome Dashboard
 2020-06-09 22:06:02,498 [main] INFO IE pass - Welcome Dashboard
 2020-06-09 22:06:04,824 [main] INFO IE pass - System 
+2020-06-18 14:15:38,066 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:15:42,052 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:15:44,384 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:15:46,732 [main] INFO IE pass - System 
+2020-06-18 14:20:11,364 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:20:14,873 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:20:16,894 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:20:18,915 [main] INFO IE pass - System 
+2020-06-18 14:22:10,779 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:22:13,239 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:22:15,259 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:22:17,276 [main] INFO IE pass - System 
+2020-06-18 14:43:10,342 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:43:12,768 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:43:14,789 [main] INFO IE pass - Welcome Dashboard
+2020-06-18 14:43:16,809 [main] INFO IE pass - System 
+2020-06-18 15:06:55,479 [main] INFO iotTesting - Welcome Dashboard
+2020-06-18 15:06:58,021 [main] INFO iotTesting - Menu - Clicked
+2020-06-18 15:06:59,898 [main] INFO iotTesting - System - Selected
+2020-06-18 15:07:01,485 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-06-18 15:07:06,569 [main] INFO iotTesting - Welcome Dashboard
+2020-06-18 15:07:08,700 [main] INFO iotTesting - Menu - Clicked
+2020-06-18 15:07:09,871 [main] INFO iotTesting - System - Selected
+2020-06-18 15:07:10,942 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-06-18 15:07:15,952 [main] INFO iotTesting - Welcome Dashboard
+2020-06-18 15:07:18,008 [main] INFO iotTesting - Menu - Clicked
+2020-06-18 15:07:19,152 [main] INFO iotTesting - System - Selected
+2020-06-18 15:07:20,213 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-06-18 15:07:25,218 [main] INFO iotTesting - System 
+2020-06-18 15:09:28,829 [main] INFO iotTesting - Welcome Dashboard
+2020-06-18 15:09:31,803 [main] INFO iotTesting - Menu - Clicked
+2020-06-18 15:09:35,003 [main] INFO iotTesting - System - Selected
+2020-06-18 15:09:36,327 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-06-18 15:09:41,441 [main] INFO iotTesting - Welcome Dashboard
+2020-06-18 15:09:43,511 [main] INFO iotTesting - Menu - Clicked
+2020-06-18 15:09:44,652 [main] INFO iotTesting - System - Selected
+2020-06-18 15:09:45,724 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-06-18 15:09:50,726 [main] INFO iotTesting - Welcome Dashboard
+2020-06-18 15:09:52,809 [main] INFO iotTesting - Menu - Clicked
+2020-06-18 15:09:53,967 [main] INFO iotTesting - System - Selected
+2020-06-18 15:09:55,015 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-06-18 15:10:00,016 [main] INFO iotTesting - System 
+2020-06-27 21:45:53,407 [main] INFO iotTesting - Welcome Dashboard
+2020-06-27 21:45:56,542 [main] INFO iotTesting - Menu - Clicked
+2020-06-27 21:45:58,465 [main] INFO iotTesting - System - Selected
+2020-06-27 21:46:01,799 [main] INFO iotTesting - Fuel value entered: 9 units
+2020-06-27 21:46:07,208 [main] INFO iotTesting - Welcome Dashboard
+2020-06-27 21:46:09,278 [main] INFO iotTesting - Menu - Clicked
+2020-06-27 21:46:10,439 [main] INFO iotTesting - System - Selected
+2020-06-27 21:46:11,507 [main] INFO iotTesting - Fuel value entered: 20 units
+2020-06-27 21:46:16,509 [main] INFO iotTesting - Welcome Dashboard
+2020-06-27 21:46:18,553 [main] INFO iotTesting - Menu - Clicked
+2020-06-27 21:46:19,720 [main] INFO iotTesting - System - Selected
+2020-06-27 21:46:20,790 [main] INFO iotTesting - Fuel value entered: 94 units
+2020-06-27 21:46:25,790 [main] INFO iotTesting - System 
