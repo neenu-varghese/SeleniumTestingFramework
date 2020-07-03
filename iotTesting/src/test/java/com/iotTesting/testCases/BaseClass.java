@@ -67,7 +67,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown()
 	{
-		logger.info("System ");
+		logger.info("System Close ");
 		driver.quit();
 	}
 	

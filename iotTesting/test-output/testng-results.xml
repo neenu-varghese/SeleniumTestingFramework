@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="iotTesting" duration-ms="60075" started-at="2020-06-18T03:06:26Z" finished-at="2020-06-18T03:07:26Z">
+  <suite name="iotTesting" duration-ms="204086" started-at="2020-07-03T04:02:15Z" finished-at="2020-07-03T04:05:39Z">
     <groups>
     </groups>
-    <test name="AUT-Chrome Test" duration-ms="60075" started-at="2020-06-18T03:06:26Z" finished-at="2020-06-18T03:07:26Z">
+    <test name="AUT-Chrome Test" duration-ms="87690" started-at="2020-07-03T04:02:15Z" finished-at="2020-07-03T04:03:42Z">
       <class name="com.iotTesting.testCases.TC_DD_EnterValue_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="setup" is-config="true" duration-ms="26193" started-at="2020-06-18T15:06:26Z" finished-at="2020-06-18T15:06:52Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="setup" is-config="true" duration-ms="33358" started-at="2020-07-03T16:02:15Z" finished-at="2020-07-03T16:02:48Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="dashboardDDT" duration-ms="11032" started-at="2020-06-18T15:06:55Z" data-provider="FuelValue_data" finished-at="2020-06-18T15:07:06Z">
+        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="dashboardDDT" duration-ms="16115" started-at="2020-07-03T16:02:56Z" data-provider="FuelValue_data" finished-at="2020-07-03T16:03:13Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardDDT -->
-        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="dashboardDDT" duration-ms="9376" started-at="2020-06-18T15:07:06Z" data-provider="FuelValue_data" finished-at="2020-06-18T15:07:15Z">
+        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="dashboardDDT" duration-ms="13247" started-at="2020-07-03T16:03:13Z" data-provider="FuelValue_data" finished-at="2020-07-03T16:03:26Z">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardDDT -->
-        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="dashboardDDT" duration-ms="9264" started-at="2020-06-18T15:07:15Z" data-provider="FuelValue_data" finished-at="2020-06-18T15:07:25Z">
+        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="dashboardDDT" duration-ms="12390" started-at="2020-07-03T16:03:26Z" data-provider="FuelValue_data" finished-at="2020-07-03T16:03:38Z">
           <params>
             <param index="0">
               <value>
@@ -51,11 +51,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardDDT -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="tearDown" is-config="true" duration-ms="1005" started-at="2020-06-18T15:07:25Z" finished-at="2020-06-18T15:07:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4501b7af]" name="tearDown" is-config="true" duration-ms="3852" started-at="2020-07-03T16:03:38Z" finished-at="2020-07-03T16:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.iotTesting.testCases.TC_DD_EnterValue_001 -->
     </test> <!-- AUT-Chrome Test -->
+    <test name="AUT-Firefox Test" duration-ms="113660" started-at="2020-07-03T04:03:45Z" finished-at="2020-07-03T04:05:39Z">
+      <class name="com.iotTesting.testCases.TC_DD_EnterValue_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56]" name="setup" is-config="true" duration-ms="63668" started-at="2020-07-03T16:03:45Z" finished-at="2020-07-03T16:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56]" name="dashboardDDT" duration-ms="16609" started-at="2020-07-03T16:04:49Z" data-provider="FuelValue_data" finished-at="2020-07-03T16:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardDDT -->
+        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56]" name="dashboardDDT" duration-ms="12685" started-at="2020-07-03T16:05:06Z" data-provider="FuelValue_data" finished-at="2020-07-03T16:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardDDT -->
+        <test-method status="PASS" signature="dashboardDDT(java.lang.String)[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56]" name="dashboardDDT" duration-ms="12551" started-at="2020-07-03T16:05:19Z" data-provider="FuelValue_data" finished-at="2020-07-03T16:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56]" name="tearDown" is-config="true" duration-ms="7549" started-at="2020-07-03T16:05:31Z" finished-at="2020-07-03T16:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.iotTesting.testCases.TC_DD_EnterValue_001 -->
+    </test> <!-- AUT-Firefox Test -->
   </suite> <!-- iotTesting -->
 </testng-results>

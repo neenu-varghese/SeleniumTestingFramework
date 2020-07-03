@@ -5,7 +5,7 @@
   <listeners>
     <listener class-name="com.iotTesting.utilities.Reporting"/>
   </listeners>
-  <test name="AUT-Chrome Test(failed)">
+  <test name="AUT-Firefox Test(failed)">
     <parameter name="browser" value="ie"/>
     <classes>
       <class name="com.iotTesting.testCases.TC_DD_EnterValue_001">
@@ -16,5 +16,5 @@
         </methods>
       </class> <!-- com.iotTesting.testCases.TC_DD_EnterValue_001 -->
     </classes>
-  </test> <!-- AUT-Chrome Test(failed) -->
+  </test> <!-- AUT-Firefox Test(failed) -->
 </suite> <!-- Failed suite [iotTesting] -->

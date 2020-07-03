@@ -18,7 +18,7 @@ public class TC_DD_EnterValue_001 extends BaseClass
 	public void dashboardDDT(String val) throws InterruptedException
 	{
 		logger.info("Welcome Dashboard");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		//logger.info("Wait Time");
 		HomePage hp=new HomePage(driver);
 //		hp.clickEmrgBtn();

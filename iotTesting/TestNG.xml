@@ -7,6 +7,17 @@
 		<listener class-name="com.iotTesting.utilities.Reporting" />
 	</listeners>
 
+<test name="AUT-Chrome Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.iotTesting.testCases.TC_EnterValue_001" /> -->
+			 <class name="com.iotTesting.testCases.TC_DD_EnterValue_001" /> 
+			<!-- <class name="com.iotTesting.testCases.TC_003" />-->
+		
+		</classes>
+
+	</test>
+
 <test name="AUT-Firefox Test">
 		<parameter name="browser" value="firefox" />
 		<classes>
@@ -18,15 +29,6 @@
 
 	</test>
 
-	<test name="AUT-Chrome Test">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<!-- <class name="com.iotTesting.testCases.TC_EnterValue_001" /> -->
-			 <class name="com.iotTesting.testCases.TC_DD_EnterValue_001" /> 
-			<!-- <class name="com.iotTesting.testCases.TC_003" />-->
-		
-		</classes>
-
-	</test>
+	
 
 </suite>

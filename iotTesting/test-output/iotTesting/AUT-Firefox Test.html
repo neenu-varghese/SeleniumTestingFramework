@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>AUT-Firefox Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 09 22:06:06 NZST 2020</td>
+<td>Started on:</td><td>Fri Jul 03 16:03:45 NZST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>73 seconds (73161 ms)</td>
+<tr><td>Total time:</td><td>113 seconds (113660 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,117 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.iotTesting.testCases.TC_DD_EnterValue_001.setup()'><b>setup</b><br>Test class: com.iotTesting.testCases.TC_DD_EnterValue_001<br>Parameters: firefox</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: connection refused
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-OLJU00U&apos;, ip: &apos;192.168.178.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at com.iotTesting.testCases.BaseClass.setup(BaseClass.java:47)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1704214570", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1704214570'><pre>org.openqa.selenium.TimeoutException: connection refused
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-OLJU00U&apos;, ip: &apos;192.168.178.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at com.iotTesting.testCases.BaseClass.setup(BaseClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>0</td>
-<td>com.iotTesting.testCases.TC_DD_EnterValue_001@6eebc39e</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.iotTesting.testCases.TC_DD_EnterValue_001.tearDown()'><b>tearDown</b><br>Test class: com.iotTesting.testCases.TC_DD_EnterValue_001</td>
-<td></td>
-<td>0</td>
-<td>com.iotTesting.testCases.TC_DD_EnterValue_001@6eebc39e</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -186,18 +77,18 @@ remote stacktrace:
 <tr>
 <td title='com.iotTesting.testCases.TC_DD_EnterValue_001.dashboardDDT()'><b>dashboardDDT</b><br>Test class: com.iotTesting.testCases.TC_DD_EnterValue_001<br>Parameters: 9</td>
 <td></td>
-<td>0</td>
-<td>com.iotTesting.testCases.TC_DD_EnterValue_001@6eebc39e</td></tr>
+<td>16</td>
+<td>com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56</td></tr>
 <tr>
 <td title='com.iotTesting.testCases.TC_DD_EnterValue_001.dashboardDDT()'><b>dashboardDDT</b><br>Test class: com.iotTesting.testCases.TC_DD_EnterValue_001<br>Parameters: 20</td>
 <td></td>
-<td>0</td>
-<td>com.iotTesting.testCases.TC_DD_EnterValue_001@6eebc39e</td></tr>
+<td>12</td>
+<td>com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56</td></tr>
 <tr>
 <td title='com.iotTesting.testCases.TC_DD_EnterValue_001.dashboardDDT()'><b>dashboardDDT</b><br>Test class: com.iotTesting.testCases.TC_DD_EnterValue_001<br>Parameters: 94</td>
 <td></td>
-<td>0</td>
-<td>com.iotTesting.testCases.TC_DD_EnterValue_001@6eebc39e</td></tr>
+<td>12</td>
+<td>com.iotTesting.testCases.TC_DD_EnterValue_001@4667ae56</td></tr>
 </table><p>
 </body>
 </html>
